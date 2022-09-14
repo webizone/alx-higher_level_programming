@@ -2,10 +2,8 @@
 """Create a Class Square with size and method of area"""
 
 
-
 class Square:
     """Class - Square"""
-
 
     def __init__(self, size=0):
         """Constructor of a Square with the size"""
@@ -16,6 +14,6 @@ class Square:
         else:
             self.__size = size
 
-             def area(self):
-                 """Method to get the area of the Square"""
-                 return (self.__size ** 2)
+    def area(self):
+        """Method to get the area of the Square"""
+        return (self.__size ** 2)
